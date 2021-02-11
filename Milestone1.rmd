@@ -1,0 +1,13 @@
+---
+title: "Milestone1"
+author: "Alice Chen"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Prompt: Final Project Milestone #1 due Friday. Speak with your Teaching Fellow about your final project during your Recitation session or outside of it. Google Dataset Search is a good way to find data. See also these resources. Create a Github repo for this Milestone. Connect the repo to your computer. Write one paragraph in an Rmd file about your current thoughts/ideas/plans. Knit the Rmd file into an html. Push to Github. Submit to Canvas the url to the repo.
+
+Answer: For my final project, I hope to do a colourful, animated visualization using data from https://www.gapminder.org/data/ to display information regarding the causes  of newborn death (pneumonia , tetanus, etc), across various countries. This data is initially from the World Bank, but is publically available in both the Gap Minder format and the World Bank format. Although this issue is oft-explored, I think it would be especially interesting to combine this data with the vaccination rate (also available on Gap Minder, from the UN) of each country. The key objective is to display this infomation in an accessible way that visualizes the size of the problem (perhaps various shades of severity or sizes in bubbles) and a filter that can add or remove layers of information so viewers can isolate a specific disease.
